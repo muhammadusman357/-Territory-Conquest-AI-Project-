@@ -34,13 +34,13 @@ ________________________________________
 The original game is a simple grid-based board where players alternate turns to capture tiles. The first player to capture all the tiles wins the game. Players move in four directions (up, down, left, right) to capture tiles.
 ### Innovations and Modifications:
 •	**AI Integration**: Implemented the Minimax algorithm for AI decision-making, with Alpha-Beta Pruning for faster evaluation.
-  **Game Modes**:
-•	Human vs AI Mode: A human player controls one piece while the AI controls the opponent's piece. The AI competes with the human player.
-•	AI vs AI Mode: Two AI players compete against each other, both using Minimax to make decisions.
-•	Power-ups: Added two power-ups:
-o	Freeze: Temporarily disables the opponent's movement.
-o	Bonus: Increases the score of the player capturing the tile with this power-up.
-•	Game Timer: A countdown timer of 30 seconds for each game, adding urgency to the game.
+-**Game Modes**:
+ -Human vs AI Mode: A human player controls one piece while the AI controls the opponent's piece. The AI competes with the human player.
+ -AI vs AI Mode: Two AI players compete against each other, both using Minimax to make decisions.
+-**Power-Ups**: Added two power-ups:
+  - `Freeze`: Temporarily disables the opponent's movement.
+  - `Bonus`: Increases the score of the player capturing the tile with this power-up.
+- **Timer**: A countdown timer of 30 seconds for each game, adding urgency to the game.
 ________________________________________
 ## 4. AI Approach and Methodology
 AI Techniques Used:
