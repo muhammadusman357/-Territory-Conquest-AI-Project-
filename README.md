@@ -1,9 +1,9 @@
 # Territory Vonquest - Human vs AI and AI vs AI Game
 
 ### Submitted By: 
-Muhammad Usman
-Muhammad waqi
-Muhammad Shahaf
+-Muhammad Usman 22k-4336
+-Muhammad waqi 22K-4613
+-Muhammad Shahaf 22K-4230
 
 ### Course: AI
 ### Instructor: Abdullah Yaqoob
