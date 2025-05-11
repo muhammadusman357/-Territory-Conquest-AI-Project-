@@ -30,17 +30,20 @@ The project was chosen because it entails applying AI through the Minimax algori
 
 ________________________________________
 ## 3. Game Description
+
 ### Original Game Rules:
 The original game is a simple grid-based board where players alternate turns to capture tiles. The first player to capture all the tiles wins the game. Players move in four directions (up, down, left, right) to capture tiles.
+
 ### Innovations and Modifications:
-•	**AI Integration**: Implemented the Minimax algorithm for AI decision-making, with Alpha-Beta Pruning for faster evaluation.
--**Game Modes**:
- -Human vs AI Mode: A human player controls one piece while the AI controls the opponent's piece. The AI competes with the human player.
- -AI vs AI Mode: Two AI players compete against each other, both using Minimax to make decisions.
--**Power-Ups**: Added two power-ups:
-  - `Freeze`: Temporarily disables the opponent's movement.
-  - `Bonus`: Increases the score of the player capturing the tile with this power-up.
--**Timer**: A countdown timer of 30 seconds for each game, adding urgency to the game.
+- **AI Integration**: Implemented the Minimax algorithm for AI decision-making, with Alpha-Beta Pruning for faster evaluation.  
+- **Game Modes**:  
+  - Human vs AI Mode: A human player controls one piece while the AI controls the opponent's piece. The AI competes with the human player.  
+  - AI vs AI Mode: Two AI players compete against each other, both using Minimax to make decisions.  
+- **Power-Ups**: Added two power-ups:  
+  - `Freeze`: Temporarily disables the opponent's movement.  
+  - `Bonus`: Increases the score of the player capturing the tile with this power-up.  
+- **Timer**: A countdown timer of 30 seconds for each game, adding urgency to the game.
+
 ________________________________________
 ## 4. AI Approach and Methodology
 ## AI Techniques Used:
@@ -70,29 +73,29 @@ The game ends when:
 •	A player captures all tiles on the grid.
 •	Time runs out (game duration of 30 seconds).
 ________________________________________
-6. Implementation and Development
-Development Process:
+## 6. Implementation and Development
+### Development Process:
 • The game was developed using Python and Pygame for rendering and gameplay.
 • Minimax Algorithm was implemented in Python to analyze the possible moves of the AI and decide.
 •Power-ups were introduced as unique tiles on the grid that can be seized for temporary benefits.
-Programming Languages and Tools:
+### Programming Languages and Tools:
 •	Programming Language: Python 3
 •	Libraries: Pygame (for game development and rendering)
 •	Tools: GitHub for version control
-Challenges Encountered:
+### Challenges Encountered:
 • The greatest challenge was to make sure that the AI made sound decisions without being too slow or inefficient.
 • Integrating the Alpha-Beta Pruning into the Minimax algorithm was challenging because it needed to optimize the pruning and evaluation functions to balance between performance and accuracy.________________________________________
-7. Team Contributions
+## 7. Team Contributions
 •	Muhammad Usman: Responsible for the AI algorithm development (Minimax with Alpha-Beta Pruning), implementing decision-making strategies, and evaluating AI performance.
 •	Muhammad: Handled game rule modifications, including the integration of power-ups and the development of AI vs AI mode.
 •	Muhammad Shahaf: Focused on user interface development, integrating AI with gameplay, and handling graphical rendering.
 ________________________________________
-8. Results and Discussion
+## 8. Results and Discussion
 AI Performance:
 •	The AI achieved a 40% win rate in Human vs AI mode, showing that the Minimax algorithm was effective at decision-making.
 •	The AI vs AI mode was successful, with the two AIs competing in an engaging manner. The AI decision-making time averaged around 1-2 seconds per move.
 ________________________________________
-9. References
+## 9. References
 1.	Pygame Documentation – Official Pygame documentation for handling graphics, user input, and game development. 
 2.	Minimax Algorithm and Alpha-Beta Pruning – Various resources on the Minimax algorithm and optimizations like Alpha-Beta Pruning. 
 3.	Artificial Intelligence: A Modern Approach – A book by Stuart Ru
