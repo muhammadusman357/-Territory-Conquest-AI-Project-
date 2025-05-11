@@ -40,18 +40,19 @@ The original game is a simple grid-based board where players alternate turns to 
 -**Power-Ups**: Added two power-ups:
   - `Freeze`: Temporarily disables the opponent's movement.
   - `Bonus`: Increases the score of the player capturing the tile with this power-up.
-- **Timer**: A countdown timer of 30 seconds for each game, adding urgency to the game.
+-**Timer**: A countdown timer of 30 seconds for each game, adding urgency to the game.
 ________________________________________
 ## 4. AI Approach and Methodology
-AI Techniques Used:
+## AI Techniques Used:
 The AI uses the Minimax algorithm with Alpha-Beta Pruning to evaluate the best possible moves. The algorithm evaluates all possible moves, simulates their outcomes, and selects the most strategic move based on a predefined evaluation function. The Alpha-Beta Pruning optimizes this process by eliminating branches of the game tree that do not need to be explored, improving performance.
 Algorithm and Heuristic Design:
-•	Minimax evaluates possible game states by simulating moves.
-•	The evaluation function considers the current state of the board and assigns a score based on the number of tiles captured by the player or AI, the presence of power-ups, and the strategic positioning of the pieces.
-•	Alpha-Beta Pruning speeds up the search by pruning unnecessary branches in the Minimax tree.
-AI Performance Evaluation:
-•	The AI’s performance was evaluated in terms of decision-making time and win rate against human players and the second AI player.
-•	The AI showed a 40% win rate in Human vs AI mode and could make decisions within an average of 1-2 seconds per move.
+-**Minimax Algorithm** evaluates possible game states by simulating moves.
+### Heuristic Design:
+  -The evaluation function considers the current state of the board and assigns a score based on the number of tiles captured by the player or AI, the presence of power-ups, and the strategic positioning of the pieces.
+- **Alpha-Beta Pruning** speeds up the search by pruning unnecessary branches in the Minimax tree.
+### AI Performance Evaluation:
+ -The AI’s performance was evaluated in terms of decision-making time and win rate against human players and the second AI player.
+ -The AI showed a 40% win rate in Human vs AI mode and could make decisions within an average of 1-2 seconds per move.
 ________________________________________
 ## 5. Game Mechanics and Rules
 ### Modified Game Rules:
