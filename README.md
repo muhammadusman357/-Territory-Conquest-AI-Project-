@@ -46,6 +46,7 @@ ________________________________________
 ## AI Techniques Used:
 The AI uses the Minimax algorithm with Alpha-Beta Pruning to evaluate the best possible moves. The algorithm evaluates all possible moves, simulates their outcomes, and selects the most strategic move based on a predefined evaluation function. The Alpha-Beta Pruning optimizes this process by eliminating branches of the game tree that do not need to be explored, improving performance.
 Algorithm and Heuristic Design:
+### Techniques Used:
 -**Minimax Algorithm** evaluates possible game states by simulating moves.
 ### Heuristic Design:
   -The evaluation function considers the current state of the board and assigns a score based on the number of tiles captured by the player or AI, the presence of power-ups, and the strategic positioning of the pieces.
